@@ -38,6 +38,7 @@ html {
 }
 
 .content__list-container {
+  position: relative;
   overflow-y: auto;
   height: 298px;
 
@@ -123,13 +124,8 @@ html {
 }
 
 .content__video-card-description {
-  line-height: 0.9;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  -webkit-line-clamp: 3;
-  display: -webkit-box;
-  white-space: nowrap;
-  text-overflow: ellipsis;
+  overflow: visible;
+  white-space: normal;
   max-inline-size: 180px;
 }
 
